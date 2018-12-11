@@ -1,8 +1,9 @@
 # Site settings
 title: DaMove
 email: damove@ise.tu-berlin.de
-#repository: DITAS-Project/web_damove
+repository: DITAS-Project/web_damove
 baseurl: /web_damove
+url: https://ditas-project.github.io
 description: "Fog computing paradigm mantra suggests to move the computation closer to where the data are generated to reduce the data traffic and improve the performance of networked systems.
 Actually, a lot of improvements can be obtained  without touching the computation deployment but concentrating on optimizing the data movement on both ways: from the edge to the cloud and vice-versa. Based on the nature of the data, decisions on how, when, and where data must be moved has impact on the quality of the system especially in terms of latency, data security and privacy, reliability. The goal of the workshop is to bring together researchers and practitioners in the area of Fog Computing in order to present and discuss methods and techniques to make data movement efficient in Fog Computing environments. Workshop will encourage submissions of research papers, industry papers, and demo to consider the whole spectrum of solutions that current
 researches can provide.
