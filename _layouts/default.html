@@ -2,12 +2,15 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
+    <p style="visibility: hidden;">{{ site.baseurl }}|{{ site.url }}</p>
+
     {% include nav.html %}
     {% include header.html %}
     {% include dates.html %}
     {% include cfp.html %}
 
     {% include pc.html %}
+    
     {% include agenda.html %}
 
     {% include footer.html %}
