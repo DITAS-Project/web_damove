@@ -1,0 +1,44 @@
+<!-- Portfolio Grid Section -->
+<section id="pc">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Commity</h2>
+                <!-- <hr class="star-primary"> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-4 text-justify">
+                <h4>Workshop Chair:</h4>
+                <ul>
+                    {% for chair in site.chairs %}
+                    <li>
+                        <a href="{{ chair.url }}">{{ chair.name }}</a>, {{ chair.location }}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <h4>Publicity Chair:</h4>
+                <ul>
+                    {% for chair in site.pub %}
+                    <li>
+                        <a href="{{ chair.url }}">{{ chair.name }}</a>, {{ chair.location }}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <div class="col-lg-6 col-lg-offset-4 text-justify">
+                <h4>Program Committee:</h4>
+                <ul>
+                    {% for chair in site.pcs %}
+                    <li>
+                        <a href="{{ chair.url }}">{{ chair.name }}</a>, {{ chair.location }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
