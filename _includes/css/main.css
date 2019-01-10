@@ -105,11 +105,18 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
+    display: block;
     font-size: 1.25em;
     font-weight: 300;
 }
 
 header .intro-text .tag {
+    font-size: 1.0em;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+header .intro-text .tag a {
     font-size: 1.0em;
     font-style: italic;
     color: rgba(255, 255, 255, 0.7);
@@ -130,6 +137,10 @@ header .intro-text .tag {
     }
 
     header .intro-text .tag {
+        font-size: 1.25em;
+    }
+
+    header .intro-text .tag a {
         font-size: 1.25em;
     }
 }
