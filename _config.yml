@@ -31,10 +31,11 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
+  header: a0b490
   primary: 70ad47 
   primary-rgb: "197, 224, 180" 
-  secondary:  c5e0b4 
-  secondary-dark: 385623 
+  secondary:  7dc650 
+  secondary-dark: 407d17 
 
 # Footer settings
 footer:
@@ -42,7 +43,15 @@ footer:
   url: ditas-project.eu
 
 active_agenda: false
-
+dates:
+  - name: Submission Deadline
+    date: March 10 2019
+  - name: Notification
+    date: March 25 2019
+  - name: Camera Ready
+    date: March 30 2019
+  - name: IEEE ICFC
+    date: June 24-26 2019
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place

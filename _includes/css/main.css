@@ -84,7 +84,7 @@ hr.star-primary:after {
 }
 header {
     text-align: center;
-    color: #fff;
+    color: #000;
     background: #{{ site.color.header }};
 }
 
@@ -115,13 +115,14 @@ header .intro-text .skills {
 header .intro-text .tag {
     font-size: 1.0em;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.70);
 }
 
 header .intro-text .tag a {
     font-size: 1.0em;
+    text-decoration: underline;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.60);
 }
 
 @media(min-width:768px) {
@@ -268,6 +269,24 @@ section.success {
 #portfolio * {
     z-index: 2;
 }
+
+.mobile {
+    display: inherit;
+}
+.web {
+    display: none;
+}
+
+@media(min-width:767px) {
+    .mobile {
+        display: none;
+    }
+
+    .web {
+        display: inherit;
+    }
+}
+
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
