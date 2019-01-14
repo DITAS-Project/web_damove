@@ -208,6 +208,11 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+section.success a {
+    color: #fff;
+    text-decoration: underline;
+    font-style: italic;
+}
 
 @media(max-width:767px) {
     section {
