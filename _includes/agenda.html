@@ -1,32 +1,98 @@
-
-    <!-- Agenda Section -->
-    {% if site.active_agenda %}
-    <section id="agenda">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Agenda</h2>
-                </div>
-            </div>
-            <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th scope="col">Time</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Presenter/Author</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                     {%for event in site.agenda%}
-                      <tr>
-                        <th scope="row">10:00</th>
-                        <td>Title</td>
-                        <td>Authros</td>
-                      </tr>
-                      {%endfor%}
-                    </tbody>
-                  </table>
-            </div>
-        </div>
-    </section>
-    {%endif%}
+<!-- Agenda Section -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Agenda</h2>
+      </div>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Title</th>
+          <th scope="col">Presenter/Author</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">13:30-13:40</th>
+          <td>Welcome and Introduction</td>
+          <td>Damove/Squeet chairs</td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td><h3>DAMOVE Paper Session​</h3></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">13:40-14:00</th>
+          <td>Towards Fog Network Utility Maximization (FoNUM) for Managing Fog
+            Computing Resources</td>
+          <td>Vladimir Marbukh</td>
+        </tr>
+        <tr>
+          <th scope="row">14:00-14:20</th>
+          <td>IoT Data Processing in the Fog: Functions, Streams, or Batch Processing?</td>
+          <td>Tobias Pfandzelter and David Bermbach</td>
+        </tr>
+        <tr>
+          <th scope="row">14:20-14:50</th>
+          <td>Keynote: ​Performance Measurement and Prediction in New Emerging Technologies</td>
+          <td>Prof. Umberto Villano, University of Sannio</td>
+        </tr>
+        <tr>
+          <th scope="row">14:50-15:00</th>
+          <td> <h4>☕ Coffee Break ☕</h4></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td><h4>SQUEET Paper Session​</h4></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">15:00-15:20</th>
+          <td>Detecting IoT Malware by Markov Chain Behavioral Model</td>
+          <td>M. Ficco</td>
+        </tr>
+        <tr>
+          <th scope="row">15:20-15:40</th>
+          <td>A secure inter-domain communication for IoT devices​</td>
+          <td>A. Anand​​, A. Galletta​​, A. Celesti​, M. Fazio​, M. Villari​</td>
+        </tr>
+        <tr>
+          <th scope="row">15:40-16:00</th>
+          <td>Continuous Benchmarking: Using System Benchmarking in Build Pipelines</td>
+          <td> M. Grambow, F. Lehmann, D. Bermbach</td>
+        </tr>
+        <tr>
+          <th scope="row">16:00-16:20</th>
+          <td>Benchmarking embedded platforms in physical and virtual environments</td>
+          <td>S. Venticinque</td>
+        </tr>
+        <tr>
+          <th scope="row">16:00-16:20</th>
+          <td>Panel Session​: “Service Level Agreement and Quantitative Evaluation in the Practice”</td>
+          <td>
+            <p></p>
+          </td>
+        </tr>  
+        <tr>
+            <th></th>
+            <td>
+                <span>Chair:Prof. Massimiliano Rak</span><br>
+                <span>Panelists​:</span>
+                <ul>
+                  <li>Dr. Giuseppe Di Modica, University of Catania</li>
+                  <li>Prof. Massimiliano Rak, University of Campania Luigi Vanvitelli</li>
+                  <li>Prof. Umberto Villano, University of Sannio</li>
+                  <li>Dr. Vrettos Moulos, National Technical University of Athens</li>
+                </ul>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+</section>
